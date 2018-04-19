@@ -9,3 +9,4 @@ yum -y install php70u php70u-pdo php70u-mysqlnd php70u-opcache php70u-xml php70u
 systemctl restart httpd.service
 yum -y install git
 systemctl status httpd
+hostnamectl set-hostname WebAPa

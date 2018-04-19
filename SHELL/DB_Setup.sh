@@ -5,4 +5,4 @@ systemctl start mariadb
 systemctl enable mariadb
 yum -y install git
 systemctl status mariadb
-
+hostnamectl set-hostname DB
